@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="reLastEntityCreationPackage" value="src/main/java/data/entities" />
+    <option name="reverseEngineeringLastDbConnectionId" value="adb565b2-00bb-4d63-a236-5ee6239ee450" />
+  </component>
+  <component name="JpaPluginProjectSettings" isShowLibraryClassesInOrmView="true" />
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="CourseWork_3_2026_Server" name="PU_Server" framework="JPA" ormUnit="CourseWork_3_2026_Server:CourseWork_3_2026_Server" defaultDataSourceId="adb565b2-00bb-4d63-a236-5ee6239ee450" />
+    </persistence-units>
+  </component>
+</project>

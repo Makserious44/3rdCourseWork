@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 27 21:54:47 MSK 2026
+https\://repo.maven.apache.org/maven2/.lastUpdated=1777316087975
+http\://0.0.0.0/.error=Could not transfer artifact org.hibernate.orm\:hibernate-annotations\:pom\:7.3.2.Final from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [projectlombok.org (http\://projectlombok.org/mavenrepo, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1777316086061
+https\://repo.maven.apache.org/maven2/.error=

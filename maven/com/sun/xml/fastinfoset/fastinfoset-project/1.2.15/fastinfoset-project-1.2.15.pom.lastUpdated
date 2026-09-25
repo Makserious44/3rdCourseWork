@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 27 22:46:44 MSK 2026
+https\://repo.maven.apache.org/maven2/.lastUpdated=1777319204316
+http\://0.0.0.0/.error=Could not transfer artifact com.sun.xml.fastinfoset\:fastinfoset-project\:pom\:1.2.15 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [projectlombok.org (http\://projectlombok.org/mavenrepo, default, releases+snapshots), releases.java.net (http\://maven.java.net/content/repositories/releases/, default, releases+snapshots), shapshots.java.net (http\://maven.java.net/content/repositories/snapshots/, default, releases+snapshots), jvnet-nexus-staging (http\://maven.java.net/content/repositories/staging/, default, releases+snapshots), netbeans (http\://bits.netbeans.org/nexus/content/groups/netbeans, default, releases)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1777319204268

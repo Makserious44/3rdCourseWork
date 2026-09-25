@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 02 10:07:34 MSK 2026
+https\://repo.maven.apache.org/maven2/.lastUpdated=1775113654138
+http\://0.0.0.0/.error=Could not transfer artifact com.google.errorprone\:error_prone_annotations\:jar\:2.41.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [projectlombok.org (http\://projectlombok.org/mavenrepo, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1775113653492

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.EditUserPopup">
+   <children>
+      <HBox prefHeight="183.0" prefWidth="400.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="315.0" prefWidth="330.0" spacing="10.0">
+               <children>
+                  <VBox alignment="CENTER" fillWidth="false" spacing="5.0">
+                     <children>
+                        <Label text="First name" />
+                        <TextField fx:id="firstName" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" fillWidth="false" spacing="5.0">
+                     <children>
+                        <Label text="Last name" />
+                        <TextField fx:id="lastName" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label text="User role" />
+                        <ComboBox fx:id="userRole" prefWidth="150.0" promptText="Role" />
+                     </children>
+                  </VBox>
+                  <Label fx:id="errorMessageField" textFill="RED" />
+               </children>
+            </VBox>
+            <VBox prefHeight="334.0" prefWidth="306.0" spacing="10.0">
+               <children>
+                  <VBox alignment="CENTER" fillWidth="false" spacing="5.0">
+                     <children>
+                        <Label text="Phone" />
+                        <TextField fx:id="phone" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" fillWidth="false" spacing="5.0">
+                     <children>
+                        <Label text="Mail" />
+                        <TextField fx:id="mail" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" fillWidth="false" spacing="5.0">
+                     <children>
+                        <Label text="Address" />
+                        <TextField fx:id="address" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin>
+      </HBox>
+      <FlowPane alignment="CENTER" hgap="150.0" prefHeight="78.0" prefWidth="600.0">
+         <children>
+            <Button cancelButton="true" mnemonicParsing="false" onAction="#onCancelPressed" text="Cancel">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#onConfirmPressed" text="Confirm">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </FlowPane>
+   </children>
+</VBox>

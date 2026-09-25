@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
+        </datasource-map>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="CourseWork_3_2026_Server" value="adb565b2-00bb-4d63-a236-5ee6239ee450" />
+          <factory-entry name="default" value="adb565b2-00bb-4d63-a236-5ee6239ee450" />
+          <factory-entry name="server" />
+        </datasource-mapping>
+        <naming-strategy-map>
+          <unit-entry name="CourseWork_3_2026_Server" />
+          <unit-entry name="default" />
+          <unit-entry name="server" />
+        </naming-strategy-map>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>

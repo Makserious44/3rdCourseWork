@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 24 15:43:15 MSK 2026
+https\://repo.maven.apache.org/maven2/.lastUpdated=1777034595285
+http\://0.0.0.0/.error=Could not transfer artifact com.sun.xml.bind.mvn\:jaxb-parent\:pom\:4.0.6 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [projectlombok.org (http\://projectlombok.org/mavenrepo, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1777034595011

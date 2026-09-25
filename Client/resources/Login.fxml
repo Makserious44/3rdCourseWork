@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Login">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="400.0" prefWidth="594.0" spacing="20.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="38.0" prefWidth="275.0" text="Store stocker">
+               <font>
+                  <Font name="VT323 Regular" size="36.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" fillWidth="false">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                     <font>
+                        <Font name="VT323 Regular" size="24.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="inputLogin" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                     <font>
+                        <Font name="VT323 Regular" size="24.0" />
+                     </font>
+                  </Text>
+                  <PasswordField fx:id="inputPassword" />
+                  <Label fx:id="errorMessageField" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="277.0" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="VT323 Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <FlowPane alignment="TOP_CENTER" columnHalignment="RIGHT" hgap="30.0" prefHeight="5.0" prefWidth="260.0" rowValignment="BOTTOM">
+                     <children>
+                        <Button fx:id="buttonRegister" mnemonicParsing="false" onAction="#registerPressed" prefWidth="100.0" text="Register">
+                           <font>
+                              <Font name="VT323 Regular" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button defaultButton="true" mnemonicParsing="false" onAction="#loginPressed" prefHeight="25.0" prefWidth="100.0" text="Login">
+                           <font>
+                              <Font name="VT323 Regular" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </FlowPane>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>

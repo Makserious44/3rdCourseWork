@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Apr 02 10:07:37 MSK 2026
+https\://repo.maven.apache.org/maven2/.lastUpdated=1775113657503
+http\://0.0.0.0/.error=Could not transfer artifact com.google.code.gson\:gson\:jar\:2.13.2 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [projectlombok.org (http\://projectlombok.org/mavenrepo, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1775113653493
